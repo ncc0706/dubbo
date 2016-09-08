@@ -100,7 +100,13 @@
 			<artifactId>dubbo-user-api</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-
+		
+		<!-- 数据库访问 -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>dubbo-db</artifactId>
+			<version>${project.version}</version>
+		</dependency>
 	</dependencies>
 
 	<build>
