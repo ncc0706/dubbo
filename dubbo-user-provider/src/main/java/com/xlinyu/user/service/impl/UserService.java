@@ -19,7 +19,7 @@ public class UserService implements IUserService {
 	public String sayHello(String name) {
 		logger.info("name: " + name);
 		System.out.println("Hi Hudson success... need export java env");
-		return "Hello " + name;
+		return "Hello---> from hudson " + name;
 	}
 
 	@Override
