@@ -7,3 +7,6 @@ Servers
 */.classpath
 */.project
 */.springBeans
+
+**/*.iml
+.idea
