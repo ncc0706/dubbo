@@ -18,7 +18,7 @@ public class UserService implements IUserService {
 	@Override
 	public String sayHello(String name) {
 		logger.info("name: " + name);
-		System.out.println("Hi Hudson success..");
+		System.out.println("Hi Hudson success... need export java env");
 		return "Hello " + name;
 	}
 
